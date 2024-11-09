@@ -49,6 +49,13 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+
+Key Things in Your Code:
+React Component: The SudokuSolver component is the main component that manages the state of the board (board) and any validation errors (error).
+Handling Input: The user inputs numbers in the grid, and these inputs are managed via handleInputChange.
+Backtracking Algorithm: The core logic to solve the Sudoku puzzle is implemented using backtracking in the solveSudoku function.
+Validation: The handleValidate function checks if the current configuration of the Sudoku board is valid.
+
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
